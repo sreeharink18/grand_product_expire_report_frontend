@@ -5,7 +5,11 @@ import type FilterOptionModel from "./FilterOption"
 import type ExpiryReportFilterModel from "./ExpiryReportFilter"
 import type ExpiryCountKpiModel from "./ExpiryCountKpiModel"
 import type LocationResponseModel from "./LocationResponseModel"
+import type CategoryResponseModel from "./CategoryResponseModel"
+import type ExpiryItemsRequestModel from './ExpiryItemsRequestModel'
+import type RemoveExpiryItemRequestModel from './RemoveExpiryItemRequestModel'
 
 export type{KpiCardPropsModel,ExpiryItemModel,
             PaginationPropsModel,FilterOptionModel,ExpiryReportFilterModel,
-            ExpiryCountKpiModel,LocationResponseModel}
+            ExpiryCountKpiModel,LocationResponseModel,CategoryResponseModel,ExpiryItemsRequestModel,
+            RemoveExpiryItemRequestModel}

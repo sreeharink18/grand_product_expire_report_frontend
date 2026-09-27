@@ -22,8 +22,6 @@ function ExpiryTableRow({ item }: ExpiryTableRowProps) {
         <tr
             className={`${getRowClass()} transition hover:bg-gray-50`}
         >
-
-            {/* Shelf Control */}
             <td className="whitespace-nowrap px-3 py-3">
                 <button
                     type="button"
