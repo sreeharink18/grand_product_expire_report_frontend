@@ -1,13 +1,11 @@
 import React from 'react'
 import KpiCard from './KpiCard';
+import type { ExpiryCountKpiModel } from '../../../types';
+interface KpiCardsProps {
+    kpi: ExpiryCountKpiModel;
+}
 
-function KpiMainCards() {
-      const kpi = {
-        total: 3217,
-        expired: 2502,
-        warning: 715,
-        safe: 0,
-    };
+function KpiMainCards({ kpi }: KpiCardsProps) {
   return (
       <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
 

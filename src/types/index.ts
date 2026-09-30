@@ -8,8 +8,9 @@ import type LocationResponseModel from "./LocationResponseModel"
 import type CategoryResponseModel from "./CategoryResponseModel"
 import type ExpiryItemsRequestModel from './ExpiryItemsRequestModel'
 import type RemoveExpiryItemRequestModel from './RemoveExpiryItemRequestModel'
+import type MonthSelectOptionModel from './MonthSelectOptionModel'
 
 export type{KpiCardPropsModel,ExpiryItemModel,
             PaginationPropsModel,FilterOptionModel,ExpiryReportFilterModel,
             ExpiryCountKpiModel,LocationResponseModel,CategoryResponseModel,ExpiryItemsRequestModel,
-            RemoveExpiryItemRequestModel}
+            RemoveExpiryItemRequestModel,MonthSelectOptionModel}

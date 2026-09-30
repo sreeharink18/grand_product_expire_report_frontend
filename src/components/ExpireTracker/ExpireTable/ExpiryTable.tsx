@@ -3,8 +3,8 @@ import type {ExpiryItemModel} from '../../../types'
 import {itemsDemoData} from '../../../helper/demoData'
 import ExpiryTableRow from './ExpiryTableRow';
 
-function ExpiryTable() {
-  const items = itemsDemoData;
+function ExpiryTable({items}) {
+  //const items = itemsDemoData;
   return (
     <div className="mt-4 overflow-hidden rounded-xl bg-white shadow-sm">
 

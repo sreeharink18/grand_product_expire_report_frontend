@@ -3,5 +3,5 @@ export default interface PaginationPropsModel {
     totalPages: number;
     totalRecords: number;
     pageSize: number;
-    onPageChange: (page: number) => void;
+    onPageChange: (page: number | string) => void;
 }
